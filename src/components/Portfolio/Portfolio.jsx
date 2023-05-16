@@ -15,7 +15,8 @@ const Portfolio = () => {
       {/* heading */}
       <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
       <span style={{ fontSize: 15, textAlign: "center" }}>
-        Basic Websites(find on gauravthedeveloper.github.io/eng,meetcat)
+        Handwritten-digits-classification-using-logistic-regression- (find on
+        https://github.com/Poulami2515)
       </span>
 
       {/* slider */}

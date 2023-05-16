@@ -41,7 +41,7 @@ const Services = () => {
           ispum is simpley dummy text of printing
         </span>
         <a href={Resume} className="cv" download>
-          <button className="button s-button cv">Download</button>
+          <button className="button s-button cv">Resume</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -55,8 +55,10 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Statistics and Probability"}
+            detail={
+              "Well versed in statistics and practical data organization​SQL, DBMS and Excel"
+            }
           />
         </motion.div>
         {/* second card */}
@@ -67,8 +69,10 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Deep Learning"}
+            detail={
+              "scikit-learn, NumPy, pandas, seaborn, PyTorch ,Google Colab, Regressional Analysis,Model Design and training"
+            }
           />
         </motion.div>
         {/* 3rd */}
@@ -79,10 +83,8 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
+            heading={"Machine Learning"}
+            detail={"Support Vector Machines, Linear Algebra "}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
